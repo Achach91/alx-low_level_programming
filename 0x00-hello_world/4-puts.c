@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - Entry point
+ * main - Does main stuff
  *
  *
  * Return: Always 0 (Success)
