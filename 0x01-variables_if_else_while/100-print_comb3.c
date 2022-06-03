@@ -1,30 +1,33 @@
 #include <stdio.h>
 
 /**
- * main - Print numbers from 00 to 99
- *
+ * main - prints all possible different combinations of three digits
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int tens;
-	int ones;
+	int n, m, l;
 
-		for (tens = 0; tens <= 9; tens++)
-		{
-		for (ones = 0; ones <= 9; ones++)
+	for (n = 48; n < 58; n++)
 	{
-		putchar(tens + '0');
-		putchar(ones + '0');
-
-	if (!(tens == 9 && ones == 9))
+		for (m = 49; m < 58; m++)
 		{
-		putchar(',');
-		putchar(' ');
+			for (l = 50; l < 58; l++)
+			{
+				if (l > m && m > n)
+				{
+					putchar(n);
+					putchar(m);
+					putchar(l);
+					if (n != 55 || m != 56)
+					{
+						putchar(',');
+						putchar(' ');
+					}
+				}
+			}
 		}
 	}
-		}
-putchar('\n');
-
-return (0);
+	putchar('\n');
+	return (0);
 }
