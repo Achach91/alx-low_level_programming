@@ -1,12 +1,12 @@
-#include "main.h"
+#include "main.h":
 /**
  * main - Entry Point
  *
  * Description: print _putchar and return 0
  *
- * return: Always 0 (Success)
+ * Return: Always 0 (Success)
  */
-int main (void)
+int main(void)
 {
 	int i;
 	char str[] = "_putchar";
@@ -17,4 +17,4 @@ int main (void)
 	}
 	_putchar(_putchar('\n''));
 	return (0);
-
+}
