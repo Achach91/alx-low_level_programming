@@ -6,7 +6,7 @@
  *
  * return: Always 0 (Success)
  */
-int main(void)
+int main (void)
 {
 	int i;
 	char str[] = "_putchar";
@@ -15,6 +15,6 @@ int main(void)
 	{
 		_putchar(*(str + i));
 	}
-	_putchar(_putchar('\n');
+	_putchar(_putchar('\n'')';
 	return (0);
 
