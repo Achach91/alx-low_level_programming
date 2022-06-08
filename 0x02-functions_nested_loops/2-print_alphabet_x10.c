@@ -1,21 +1,29 @@
-#include "main.h"
-
+#include "main.h'
 /**
- * print_alphabet - prints lower case alphabet
- * Description: prints lower case alphabet
- * Return: void
+ *print_alphabet_x10 - prints the alphabet 10 times
+ *Description: prints the alphabet 10 times
+ *Return: 0
  */
 
-void print_alphabet(void)
-{
+void print_alphabet_x10(void)
 
+{
 	char n;
 
-	n = 'a';
-	while (n <= 'z')
+	int i = 1;
+
+	while (i <= 10)
+
+	{
+		n = 'a';
+		while (n <= 'z')
+
 	{
 		_putchar(n);
 		n++;
 	}
-	_putchar('\n');
+
+		_putchar('\n');
+		i++;
+	}
 }
