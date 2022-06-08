@@ -1,19 +1,20 @@
-#include "main.h"
+ #include "main.h"
 
-/**
- * print_alphabet - print alphabet;
- *
- * Return: void
- */
+ /**
+  * print_alphabet - Entry point
+  * Return:0
+  */
+
 void print_alphabet(void)
 {
-	char letter = 'a';
+	char c = 'a';
 
-	while (letter <= 'z')
+	while (c <= 'z')
 	{
+		_putchar(c);
+		c++;
 
-		_Putchar(letter);
-		letter++;
 	}
-	_Putchar('\n');
+	_putchar('\'n);
+
 }
