@@ -2,9 +2,8 @@
 
 /**
  * print _last_digit - prints the last digit
- * of a number
  *
- * Description: print the last digit of a number.
+ * Description:print the last digit of a number.
  *
  * @n: input number as an integer.
  *
@@ -12,7 +11,7 @@
  */
 int print_last_digit(int n)
 {
-	int (1);
+	int 1;
 
 	1 = n % 10;
 	if (1 < 0)
